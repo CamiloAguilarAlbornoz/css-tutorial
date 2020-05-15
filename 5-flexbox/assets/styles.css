@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.aquaman {
+    flex: 4;
+    background: orange;
+}
+
+.batman {
+    flex: 5;
+    background: black;
+    color: yellow;
+}
+
+.daredevil {
+    flex: 6;
+    background: red;
+    color: aliceblue;
+    width: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.hulk {
+    flex: 3;
+    background: #235E3D;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.spiderman {
+    flex: 2;
+    background: red;
+    color: cornflowerblue;
+    width: 50px;
+}
+
+.wolverine {
+    flex: 1;
+    background: yellow;
+    color: darkblue;
+}
